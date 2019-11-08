@@ -47,7 +47,7 @@ and partially address
 
 ## Example platform configurations
 
-```ini
+```cfg
 [job platforms]
     [localhost]
         alternate names = desktop\d\d
