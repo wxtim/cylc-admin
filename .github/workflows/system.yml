@@ -80,6 +80,6 @@ jobs:
       - name: run a workflow
         run: |
           which cylc
-          PYTHONPATH=$PYTHONPATH:${{ github.workspace }}/cylc-flow/tests
+          export PYTHONPATH=$PYTHONPATH:${{ github.workspace }}/cylc-flow/tests
           pytest ${{ github.workspace }}/.github/scripts/flow.py
 
