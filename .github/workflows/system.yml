@@ -51,7 +51,7 @@ jobs:
       fail-fast: false
       matrix:
         os: ['ubuntu-latest']
-        python-version: ['3.7', '3.8', '3.9']
+        python-version: ['3.7'] #, '3.8', '3.9']
         meta_release: ${{ fromJson(needs.set-meta-releases.outputs.meta-releases) }}
 
     steps:
@@ -63,7 +63,7 @@ jobs:
         with:
           meta_release: ${{ matrix.meta_release }}
           cylc_flow: true
-          cylc_flow_opts: ''
+          cylc_flow_opts: 'all'
           cylc_uiserver: true
           cylc_uiserver_opts: 'hub'
           cylc_rose: true
