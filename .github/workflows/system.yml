@@ -75,5 +75,6 @@ jobs:
         run: cylc version --long
 
       - name: run a workflow in bash
-        run: pytest .github/scripts/flow.py
+        run: |
+          pytest ${{ github.workspace }}/.github/scripts/flow.py
 
