@@ -77,7 +77,9 @@ jobs:
       - name: check version
         run: cylc version --long
 
-      - name: run a workflow in bash
+      - name: run a workflow
         run: |
+          which cylc
+          PYTHONPATH=$PYTHONPATH:${{ github.workspace }}/cylc-flow/tests
           pytest ${{ github.workspace }}/.github/scripts/flow.py
 
