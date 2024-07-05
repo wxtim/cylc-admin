@@ -77,6 +77,10 @@ jobs:
       - name: check version
         run: cylc version --long
 
+      - name: cli workflow run
+        run: |
+          \. ${{ github.workspace }}/.github/scripts/workflow.sh
+
       - name: run a workflow
         run: |
           tree ${{github.workspace}}
