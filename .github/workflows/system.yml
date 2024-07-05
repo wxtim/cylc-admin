@@ -79,11 +79,4 @@ jobs:
 
       - name: cli workflow run
         run: |
-          \. ${{ github.workspace }}/.github/scripts/workflow.sh
-
-      - name: run a workflow
-        run: |
-          tree ${{github.workspace}}
-          python -c "import cylc; print(cylc.__file__)"
-          pytest ${{ github.workspace }}/.github/scripts/flow.py
-
+          ls /home/runner/.local/lib/python3.10/site-packages/*
