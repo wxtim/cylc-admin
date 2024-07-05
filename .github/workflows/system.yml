@@ -73,3 +73,7 @@ jobs:
 
       - name: check version
         run: cylc version --long
+
+      - name: run a workflow in bash
+        run: pytest .github/scripts/flow.py
+
