@@ -79,7 +79,7 @@ jobs:
 
       - name: run a workflow
         run: |
-          which cylc
-          export PYTHONPATH=$PYTHONPATH:${{ github.workspace }}/cylc-flow/tests
+          tree ${{github.workspace}}
+          python -c "import cylc; print(cylc.__file__)"
           pytest ${{ github.workspace }}/.github/scripts/flow.py
 
