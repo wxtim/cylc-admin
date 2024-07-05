@@ -6,7 +6,7 @@ def test_foo(planet):
     print(f'Hello {planet}')
 
 
-def test_cylc_workflow(flow, scheduler, run, complete):
+async def test_cylc_workflow(flow, scheduler, run, complete):
     id_ = flow({
         'scheduling': {'R1': 'foo'},
     })
