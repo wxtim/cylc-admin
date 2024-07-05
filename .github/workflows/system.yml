@@ -71,6 +71,9 @@ jobs:
           metomi_rose: true
           metomi_rose_opts: ''
 
+      - name: checkout
+        uses: actions/checkout@v4
+
       - name: check version
         run: cylc version --long
 
