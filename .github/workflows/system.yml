@@ -79,6 +79,5 @@ jobs:
 
       - name: run a workflow in bash
         run: |
-          tree ${{github.workspace}}
           pytest ${{ github.workspace }}/.github/scripts/flow.py
 
