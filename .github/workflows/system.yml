@@ -87,4 +87,4 @@ jobs:
       - name: symlink cylc test files
         run: |
           # ln -s cylc-flow/tests/integration/utils /home/runner
-          tree /home -L 6
+          find /home/ -name 'cylc-flow'
