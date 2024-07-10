@@ -61,7 +61,7 @@ jobs:
       - name: install libs
         uses: cylc/release-actions/install-cylc-components@v1
         with:
-          meta_release: master #${{ matrix.meta_release }}
+          meta_release: ${{ matrix.meta_release }}
           cylc_flow: true
           cylc_flow_opts: 'all'
           cylc_uiserver: true
