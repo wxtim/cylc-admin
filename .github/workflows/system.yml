@@ -79,4 +79,8 @@ jobs:
 
       - name: cli workflow run
         run: |
-          ls /home/runner/.local/lib/python3.10/site-packages/*
+
+      - name: symlink cylc test files
+        run: |
+          # ln -s cylc-flow/tests/integration/utils /home/runner
+          tree -L 2
