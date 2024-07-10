@@ -87,5 +87,4 @@ jobs:
       - name: symlink cylc test files
         run: |
           # ln -s cylc-flow/tests/integration/utils /home/runner
-          tree -L 2 ${{ github.workspace }}
-          tree /home/runner -L 3
+          tree /home -L 6
