@@ -1,19 +1,10 @@
 import pytest
 import cylc
 import sys
+from pathlib import Path
 
+Path('/home/h02/tpilling/metomi/cylc-flow/tests/integration/utils/__init__').touch()
 
-@pytest.mark.parametrize('planet', [('Earth'), ('Venus')])
-def test_foo(planet):
-    print(cylc.__file__, file=sys.stderr)
-    print(f'Hello {planet}')
+sys.path.append('/home/h02/tpilling/metomi/cylc-flow/tests/integration')
 
-
-async def test_cylc_workflow(flow, scheduler, run, complete):
-    id_ = flow({
-        'scheduling': {'R1': 'foo'},
-    })
-    schd = scheduler(id_)
-    async with schd:
-        complete(schd)
-
+from utils import flow_tools
