@@ -74,11 +74,15 @@ jobs:
       - name: checkout
         uses: actions/checkout@v4
 
+      - name: checkout cylc-flow
+        uses: actions/checkout@v4
+        with:
+          repository: cylc/cylc-flow
+          path: cylc-flow
+
       - name: check version
         run: cylc version --long
 
-      - name: cli workflow run
-        run: |
 
       - name: symlink cylc test files
         run: |
