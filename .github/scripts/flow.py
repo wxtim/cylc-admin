@@ -7,9 +7,7 @@ import asyncio
 from cylc.flow.scheduler import Scheduler
 from cylc.flow.scheduler_cli import RunOptions
 
-WORKSPACE = Path(os.environ['GITHUB_WORKSPACE'])
-
-print([i for i in WORKSPACE.rglob('*')])
+WORKSPACE = Path('/home/runner/work/cylc-admin/cylc-admin')
 
 UTILS = WORKSPACE / 'cylc-flow/tests/integration/utils'
 (UTILS / '__init__').touch()
