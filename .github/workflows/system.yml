@@ -86,5 +86,4 @@ jobs:
 
       - name: symlink cylc test files
         run: |
-          # ln -s ${GITHUB_WORKSPACE}/cylc-flow/tests/integration ${GITHUB_WORKSPACE}/.github/scripts/integration
-          PYTHONPATH=${PYTHONPATH}:${GITHUB_WORKSPACE}/cylc-flow/tests
+          python .github/scripts/flow.py
