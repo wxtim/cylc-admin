@@ -9,7 +9,7 @@ from cylc.flow.scheduler_cli import RunOptions
 
 WORKSPACE = Path(os.environ['GITHUB_WORKSPACE'])
 
-print(WORKSPACE.rglob('*'))
+print([i for i in WORKSPACE.rglob('*')])
 
 UTILS = WORKSPACE / 'cylc-flow/tests/integration/utils'
 (UTILS / '__init__').touch()
