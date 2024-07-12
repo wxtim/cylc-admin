@@ -17,7 +17,7 @@ sys.path.append(str(UTILS.parent))
 from utils import flow_tools
 
 RUN_DIR = WORKSPACE / 'cylc-run'
-RUN_DIR.touch()
+RUN_DIR.mkdir()
 
 myflow = flow_tools._make_flow(
     RUN_DIR,
