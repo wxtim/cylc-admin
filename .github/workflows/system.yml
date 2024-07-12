@@ -86,7 +86,7 @@ jobs:
       - name: examine workspace
         run: |
           echo $PWD
-          tree -L 2 ./cylc-flow/tests/
+          tree -L 1 ./cylc-flow/tests/integration
 
       - name: run a workflow
         run: |
