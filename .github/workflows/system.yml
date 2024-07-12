@@ -85,7 +85,7 @@ jobs:
 
       - name: examine workspace
         run: |
-          tree --max-depth=5 .
+          tree -L 5 .
 
       - name: run a workflow
         run: |
