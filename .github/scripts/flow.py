@@ -11,8 +11,9 @@ WORKSPACE = Path('/home/runner/work/cylc-admin/cylc-admin/')
 
 UTILS = WORKSPACE / 'cylc-flow/tests/integration/utils'
 (UTILS / '__init__').touch()
+(UTILS.parent / '__init__').touch()
 
-sys.path.append(UTILS)
+sys.path.append(str(UTILS.parent))
 from utils import flow_tools
 
 RUN_DIR = WORKSPACE / 'cylc-run'
