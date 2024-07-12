@@ -83,7 +83,10 @@ jobs:
       - name: check version
         run: cylc version --long
 
+      - name: examine workspace
+        run: |
+          tree --max-depth=5 .
 
-      - name: symlink cylc test files
+      - name: run a workflow
         run: |
           python .github/scripts/flow.py
