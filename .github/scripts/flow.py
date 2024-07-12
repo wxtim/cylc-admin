@@ -29,6 +29,8 @@ myflow = flow_tools._make_flow(
     id_='example1'
 )
 
+print(RUN_DIR.rglob('*'))
+
 schd = Scheduler(myflow, RunOptions())
 
 
