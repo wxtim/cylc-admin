@@ -230,15 +230,6 @@ Please edit `branches.json` and raise a pull request, this file will be automati
 </tr>
 
 <tr>
-  <td><a href="https://github.com/cylc/cylc-flow/milestone/129?q=is%3Aopen">
-  <img src="https://img.shields.io/github/milestones/issues-open/cylc/cylc-flow/129" />
-</a></td>
-  <td><a href="https://github.com/cylc/cylc-flow/milestone/129?q=is%3Aclosed">
-  <img src="https://img.shields.io/github/milestones/issues-closed/cylc/cylc-flow/129" />
-</a></td>
-</tr>
-
-<tr>
   <td><a href="https://github.com/cylc/cylc-flow/milestone/149?q=is%3Aopen">
   <img src="https://img.shields.io/github/milestones/issues-open/cylc/cylc-flow/149" />
 </a></td>
@@ -412,6 +403,15 @@ Please edit `branches.json` and raise a pull request, this file will be automati
 </tr>
 
 <tr>
+  <td><a href="https://github.com/cylc/cylc-rose/milestone/32?q=is%3Aopen">
+  <img src="https://img.shields.io/github/milestones/issues-open/cylc/cylc-rose/32" />
+</a></td>
+  <td><a href="https://github.com/cylc/cylc-rose/milestone/32?q=is%3Aclosed">
+  <img src="https://img.shields.io/github/milestones/issues-closed/cylc/cylc-rose/32" />
+</a></td>
+</tr>
+
+<tr>
   <td><a href="https://github.com/cylc/cylc-rose/milestone/2?q=is%3Aopen">
   <img src="https://img.shields.io/github/milestones/issues-open/cylc/cylc-rose/2" />
 </a></td>
@@ -458,6 +458,15 @@ Please edit `branches.json` and raise a pull request, this file will be automati
 </tr>
 
 <tr>
+  <td><a href="https://github.com/cylc/cylc-uiserver/milestone/37?q=is%3Aopen">
+  <img src="https://img.shields.io/github/milestones/issues-open/cylc/cylc-uiserver/37" />
+</a></td>
+  <td><a href="https://github.com/cylc/cylc-uiserver/milestone/37?q=is%3Aclosed">
+  <img src="https://img.shields.io/github/milestones/issues-closed/cylc/cylc-uiserver/37" />
+</a></td>
+</tr>
+
+<tr>
   <td><a href="https://github.com/cylc/cylc-uiserver/milestone/8?q=is%3Aopen">
   <img src="https://img.shields.io/github/milestones/issues-open/cylc/cylc-uiserver/8" />
 </a></td>
@@ -500,6 +509,15 @@ Please edit `branches.json` and raise a pull request, this file will be automati
 </a></td>
   <td><a href="https://github.com/metomi/rose/milestone/104?q=is%3Aclosed">
   <img src="https://img.shields.io/github/milestones/issues-closed/metomi/rose/104" />
+</a></td>
+</tr>
+
+<tr>
+  <td><a href="https://github.com/metomi/rose/milestone/106?q=is%3Aopen">
+  <img src="https://img.shields.io/github/milestones/issues-open/metomi/rose/106" />
+</a></td>
+  <td><a href="https://github.com/metomi/rose/milestone/106?q=is%3Aclosed">
+  <img src="https://img.shields.io/github/milestones/issues-closed/metomi/rose/106" />
 </a></td>
 </tr>
 
